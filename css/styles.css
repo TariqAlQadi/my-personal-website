@@ -16,7 +16,7 @@ label.logo {
     color: white;
     font-size: 35px;
     line-height: 80px;
-    padding: 0 100px;
+    padding: 0 50px;
     font-weight: bold;
 }
 
@@ -46,7 +46,7 @@ a.active,a:hover{
 
 body{
     
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: rgb(5, 119, 47);
 }
 
@@ -55,10 +55,18 @@ h1,h2,h3 {
 }
 
 img {
-    margin: auto 100px ;
+    margin: 20px 50px ;
     height: 350px;
     border-radius: 25px;
     border: 5px solid black;
+    box-shadow: 10px 5px 5px black;
 }
 
+p{
+    margin: auto 50px;
+}
+
+.service-list-items {
+    text-align: center;
+}
 
